@@ -1,0 +1,10 @@
+.main-header {
+  background-color: #ff0055;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  z-index: 10;
+}

@@ -1,0 +1,43 @@
+.modal {
+  z-index: 100;
+  background: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid white;
+  font: inherit;
+}
+
+.modal__header,
+.modal__content,
+.modal__footer {
+  padding: 2rem;
+}
+
+.modal__header {
+  width: 100%;
+  background: #2a006e;
+  color: white;
+}
+
+.modal-enter {
+  transform: translate(-50%, -50%) translateY(-100%);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translate(-50%, -50%) translateY(-0);
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.modal-exit-active {
+  transform: translate(-50%, -50%) translateY(-100%);
+  opacity: 0;
+  transition: all 0.2s;
+}

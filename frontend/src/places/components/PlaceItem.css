@@ -1,0 +1,93 @@
+.place-item {
+  list-style: none;
+  width: 90vw;
+  max-width: 80rem;
+}
+
+.place-item__image {
+  width: 100%;
+  height: 30rem;
+}
+
+.place-item__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.place-item__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-item__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.place-item__info h2 {
+  font-size: 2.5rem;
+}
+
+.place-item__info h3 {
+  font-size: 1.5rem;
+}
+
+.place-item__info p {
+  font-size: 1.4rem;
+}
+
+.place-item__info > *:not(:last-child) {
+  margin-bottom: 0.8rem;
+}
+
+.place-item__actions {
+  padding: 2rem 0;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.place-item__actions > *:not(:last-child) {
+  margin-right: 2rem;
+}
+
+@media (max-width: 450px) {
+  .place-item__actions {
+    font-size: 1rem;
+  }
+
+  .place-item__actions > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+.place-item__modal-header {
+  font-size: 1.2rem;
+}
+
+.place-item__modal-content {
+  font-size: 1.8rem;
+}
+
+.place-item__modal-footer {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.place-item__modal-footer button:first-child {
+  margin-right: 1.5rem;
+}
+
+.map-container {
+  height: 50vh;
+}

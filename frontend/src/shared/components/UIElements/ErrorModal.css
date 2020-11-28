@@ -1,0 +1,9 @@
+.error-modal__footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: inherit;
+}
+
+.error-modal__content {
+  font-size: inherit;
+}
