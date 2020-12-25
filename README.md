@@ -16,5 +16,8 @@ A full-stack project using MongoDB, Express, ReactJS, NodeJS. Allow users to sig
 * Non sign-in users can view others places but can not edit.
 * Sign-in user only can edit their places.
 
+<br/>
+<br/>
 
 **Sign-up/ Sign-in**
+(https://drive.google.com/file/d/1QOa4t4ui5zfTTC56a3fKZcaM7l-HgRl_/view?usp=sharing)
