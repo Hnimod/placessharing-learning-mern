@@ -22,8 +22,7 @@ A full-stack project using MongoDB, Express, ReactJS, NodeJS. Allow users to sig
 <br/>
 
 ## Screenshots
-<img src="./readme-images/places-sharing1.jpg" width="49%"/>
-<img src="./readme-images/places-sharing2.jpg" width="49%"/>
+<img src="./readme-images/places-sharing2.jpg"/>
 --
 <img src="./readme-images/places-sharing3.jpg"/>
 --
