@@ -24,10 +24,7 @@ Nam Vu user (email: test@test1.com; password: 123456)
 <br/>
 
 ## Screenshots
-<img src="./readme-images/places-sharing2.jpg"/>
---
-<img src="./readme-images/places-sharing3.jpg"/>
---
-<img src="./readme-images/places-sharing4.jpg"/>
---
-<img src="./readme-images/places-sharing5.jpg"/>
+## <img src="./readme-images/places-sharing2.jpg"/>
+## <img src="./readme-images/places-sharing3.jpg"/>
+## <img src="./readme-images/places-sharing4.jpg"/>
+## <img src="./readme-images/places-sharing5.jpg"/>
