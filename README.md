@@ -2,8 +2,8 @@
 
 A full-stack project using MongoDB, Express, ReactJS, NodeJS. Allow users to signup and share their places, utilize Google Geocoding API to generate map with the location user entered. Support images upload from amazon S3, authentication, authorization.
 
-* Front End: https://mern-places-sharing.web.app/ 
-* Back End: https://mern-places-sharing.herokuapp.com/api/v1/places
+* Front End: https://mern-places-sharing.web.app/
+* Back End: https://places-sharing.herokuapp.com/api/v1/users
 
 <br/>
 Minh Do user (email: test@test.com; password: 123456)
