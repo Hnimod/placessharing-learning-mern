@@ -32,7 +32,7 @@ exports.signup = catchAsync(async (req, res, next) => {
   const newUser = new User({
     name,
     email,
-    image: req.file.path,
+    image: req.file.location,
     password: hashedPassword,
     places: [],
   });

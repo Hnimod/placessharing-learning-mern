@@ -29,7 +29,7 @@ exports.createNewPlace = catchAsync(async (req, res, next) => {
     title,
     description,
     location: coordinates,
-    image: req.file.path,
+    image: req.file.location,
     address,
     creator: req.user.id,
   });

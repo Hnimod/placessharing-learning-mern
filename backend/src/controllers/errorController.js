@@ -1,5 +1,5 @@
-const fs = require('fs');
-const AppError = require('../utils/appError');
+// const fs = require('fs');
+// const AppError = require('../utils/appError');
 
 const sendErrorDev = (err, res) => {
   res.status(err.statusCode).json({
@@ -31,11 +31,12 @@ module.exports = (err, req, res, next) => {
   error.statusCode = err.statusCode || 500;
   error.status = err.status || 'error';
   if (req.file) {
-    fs.unlink(req.file.path, (errorUnlink) => {
-      if (errorUnlink) {
-        return next(new AppError(errorUnlink.message, 500));
-      }
-    });
+    // fs.unlink(req.file.path, (errorUnlink) => {
+    //   if (errorUnlink) {
+    //     return next(new AppError(errorUnlink.message, 500));
+    //   }
+    // });
+    console.log('image deleted');
   }
   sendErrorDev(err, res);
   // if (process.env.NODE_ENV === 'development') {

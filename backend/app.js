@@ -9,7 +9,6 @@ const userRouter = require('./src/routes/userRoutes');
 const app = express();
 
 app.use(express.json());
-// app.use(bodyParser.json());
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
 }
